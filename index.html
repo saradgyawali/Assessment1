@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>MediaWiki API Sapple Application</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link rel="stylesheet" href="./style.css">  
+<link rel="stylesheet" href="./table.css">  
+</head>
+
+<body onload="onInit()">
+
+<article class="article">
+	<header class="table-all card-4">
+		<h1 class="headerDiv"> MediaWiki API </h1>
+	</header>
+</article>
+<br>
+<div class="container">
+	<div class="class=table-all card-4">
+	  
+		  <label>Search by any data</label>
+		  <input type="text" placeholder="Search.." value="meeting" id="search" name="search">
+		  <button class="btn success" onclick="search()">Search</button>
+		  <button class="btn info" onclick="clearInput()">Clear</button>
+		&nbsp;&nbsp;&nbsp;&nbsp;  <br><em id="error" class="error"> </em>
+	</div>
+	<br>
+	<div class="statusBar">
+	<br>
+		<b>Result for </b> <i style="color: blue" ><span style id="result"> </span> </i>
+		<br>
+		<br>
+		<!--<a href="#" onclick="sortOn(-1)"><span>Sort By Title</span></a> -->
+		
+		<b style="color: blue">(click on 'Title' header for sorting ) </b>  </span> <span id="sort"> &#8595;</span>
+	</div>
+	<div id="dynamicTablevalue">
+		<div class="busy">
+			<img src="./loading.gif"></img>
+		</div>
+	</div>
+	
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
+

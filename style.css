@@ -1,0 +1,85 @@
+
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+	margin:0px;
+	
+}
+.article{
+    margin-left: 1px;
+	margin-right: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+	
+}
+.headerDiv {
+ padding :10px;
+}
+div {
+	padding-bottom:10px;
+}
+
+label {
+    font-size: 15px;
+    padding: 20px;
+    font-weight: 700;
+}
+.container {
+    padding: 0.01em 20px;
+}
+
+.btn {
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 5px 10px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.success { 
+	background-color: #4CAF50;
+} 
+.success:hover {
+	background-color: #46a049;
+}
+.info {
+	background-color: #2196F3;
+} 
+.info:hover {
+	background: #0b7dda;
+}
+
+
+ input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 15px;
+	width:250px;
+}
+
+.busy {
+	text-align: center;
+    margin-top: 100px;
+}
+
+h3 { 
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.statusBar{
+ width:100%;
+}
+.error {
+color: red;
+    font-size: 10pt;
+}
